@@ -12,9 +12,13 @@ public class Second {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     System.out.println("Введите последовательность символов");
-    String str1="language";
+    String str1="abcd";
     String str2=s.nextLine();
-    System.out.println(str1.equals(str2));
+    if (str2.equals(str1)) {
+      System.out.println("Строки совпадают");
+    } else {
+      System.out.println("Строки не совпадают");
+    }
   }
 
 }
